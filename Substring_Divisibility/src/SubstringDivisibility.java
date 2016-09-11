@@ -35,6 +35,7 @@ public class SubstringDivisibility{
 		if(Integer.parseInt(str.substring(7,10))% 17 !=0 ){
 			return;
 		}
+		System.out.println(str);
 		sum = sum + Long.parseLong(str);
 	}
 
